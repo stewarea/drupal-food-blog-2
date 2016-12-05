@@ -1,0 +1,4 @@
+<?php
+  function contact_custom_form_alter(&$form, &$form_state, $form_id) {
+    print_r($form_id)
+  }
