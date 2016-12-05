@@ -1,0 +1,14 @@
+<?php
+  function custom_follow_follow_networks_alter(&$networks, $uid = 0) {
+    $networks[$uid]['imdb'] = array(
+    'title' => t('IMDB'),
+    'domain' => 'imdb.com',
+      );
+    // print_r($networks);
+    // print '<pre>';
+    // print_r($networks);
+    // print '</pre>';
+    // exit;
+
+
+  }
