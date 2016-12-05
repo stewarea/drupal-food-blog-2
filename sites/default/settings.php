@@ -244,7 +244,21 @@
  *   );
  * @endcode
  */
-$databases = array();
+$databases = array (
+  'default' => 
+  array (
+    'default' => 
+    array (
+      'database' => 'food-blog',
+      'username' => 'admin',
+      'password' => 'admin',
+      'host' => '127.0.0.1',
+      'port' => '8889',
+      'driver' => 'mysql',
+      'prefix' => '',
+    ),
+  ),
+);
 
 /**
  * Access control for update.php script.
@@ -276,7 +290,7 @@ $update_free_access = FALSE;
  *   $drupal_hash_salt = file_get_contents('/home/example/salt.txt');
  *
  */
-$drupal_hash_salt = '';
+$drupal_hash_salt = '0dS3S6p_N8oJ2csoBGsSybzs1ohedbQlt-2Y-NMdF4U';
 
 /**
  * Base URL (optional).
