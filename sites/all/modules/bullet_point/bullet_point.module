@@ -1,0 +1,18 @@
+<?php
+  function bullet_point_field_display_alter(&$display, $context) {
+    $ingredients  = $context['entity'];
+    // return $ingredients;
+    // $output = ["rum", "coke"];
+    // foreach( $ingredients as $ingrdient){
+    //   $output .= "<li> $igredient</li>";
+    // }
+    // $output2 = implode($output);
+    // return $output2;
+    // print '<pre>';
+    // var_dump($ingredients);
+    // print '</pre>';
+    // exit;
+    // return '<p>FLAFLKAKLFLKAFJKLAFJLK:!!!!!</p>';
+    // exit;
+
+  }

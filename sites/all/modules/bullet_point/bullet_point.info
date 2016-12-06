@@ -1,0 +1,5 @@
+name = Bullet Point
+description = customize bullet point display
+package = My Modules
+core = 7.x
+files[] = bullet_point.module
