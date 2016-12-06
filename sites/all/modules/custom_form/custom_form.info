@@ -1,0 +1,5 @@
+name = custom form
+description = removing admin menus
+package = My Modules
+core = 7.x
+files[] = custom_form.module
