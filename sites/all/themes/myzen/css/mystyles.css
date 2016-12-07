@@ -1,0 +1,19 @@
+a, a:link {
+  color: red;
+  text-decoration: none;
+}
+a {
+text-decoration: underline;
+}
+.even p{
+  border: solid gray;
+  border-radius: 4px;
+}
+body {
+  background-color: #abcafc;
+  text-align: center;
+}
+.region-new1 {
+  border: solid gray;
+  border-radius: 4px;
+}

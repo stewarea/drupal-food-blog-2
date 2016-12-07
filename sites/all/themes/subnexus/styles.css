@@ -1,0 +1,33 @@
+body{
+  background-color: #fff;
+}
+.node-recipes a {
+  color: blue;
+}
+.title a {
+  text-decoration: underline;
+}
+
+/*.field-type-text-with-summary:hover:after {
+  height: 90%;
+}
+
+.field-type-text-with-summary:after{
+  overflow: hidden;
+  content: "read more";
+  text-shadow:  1px 1px 5px black;
+  text-align: center;
+  font-size: 10em;
+  font-family: 'Pacifico', cursive;
+
+  color: white;
+  background-color: blue;
+  background-repeat: no-repeat;
+  /*background: rgba(44, 40, 222, 0.5);*/
+  width: 100%;
+  height: 0%;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  /*transform: skewX(33deg);*/
+  transition: all .5s ease;*/
